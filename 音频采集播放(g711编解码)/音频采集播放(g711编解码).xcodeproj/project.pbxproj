@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEDDB5841F665A720044159E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5831F665A720044159E /* main.m */; };
+		AEDDB5871F665A720044159E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5861F665A720044159E /* AppDelegate.m */; };
+		AEDDB58A1F665A720044159E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5891F665A720044159E /* ViewController.m */; };
+		AEDDB58D1F665A720044159E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDDB58B1F665A720044159E /* Main.storyboard */; };
+		AEDDB58F1F665A720044159E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDDB58E1F665A720044159E /* Assets.xcassets */; };
+		AEDDB5921F665A720044159E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDDB5901F665A720044159E /* LaunchScreen.storyboard */; };
+		AEDDB59D1F665A720044159E /* _______c711____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB59C1F665A720044159E /* _______c711____Tests.m */; };
+		AEDDB5A81F665A720044159E /* _______c711____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5A71F665A720044159E /* _______c711____UITests.m */; };
+		AEDDB5B71F665A960044159E /* PCMDataPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5B61F665A960044159E /* PCMDataPlayer.mm */; };
+		AEDDB5BA1F665AA80044159E /* PCMAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5B91F665AA80044159E /* PCMAudioRecorder.m */; };
+		AEDDB5BD1F665EE50044159E /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5BC1F665EE50044159E /* TEST.m */; };
+		AEDDB5C01F665F590044159E /* ql_baseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDB5BF1F665F590044159E /* ql_baseButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEDDB5991F665A720044159E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDDB5771F665A710044159E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDDB57E1F665A720044159E;
+			remoteInfo = "音频采集播放(c711编解码)";
+		};
+		AEDDB5A41F665A720044159E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDDB5771F665A710044159E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDDB57E1F665A720044159E;
+			remoteInfo = "音频采集播放(c711编解码)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEDDB57F1F665A720044159E /* 音频采集播放(g711编解码).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音频采集播放(g711编解码).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDDB5831F665A720044159E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEDDB5851F665A720044159E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEDDB5861F665A720044159E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEDDB5881F665A720044159E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEDDB5891F665A720044159E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEDDB58C1F665A720044159E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEDDB58E1F665A720044159E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEDDB5911F665A720044159E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEDDB5931F665A720044159E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDDB5981F665A720044159E /* 音频采集播放(g711编解码)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频采集播放(g711编解码)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDDB59C1F665A720044159E /* _______c711____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______c711____Tests.m"; sourceTree = "<group>"; };
+		AEDDB59E1F665A720044159E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDDB5A31F665A720044159E /* 音频采集播放(g711编解码)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频采集播放(g711编解码)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDDB5A71F665A720044159E /* _______c711____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______c711____UITests.m"; sourceTree = "<group>"; };
+		AEDDB5A91F665A720044159E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDDB5B51F665A8D0044159E /* PCMDataPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMDataPlayer.h; sourceTree = "<group>"; };
+		AEDDB5B61F665A960044159E /* PCMDataPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCMDataPlayer.mm; sourceTree = "<group>"; };
+		AEDDB5B81F665AA10044159E /* PCMAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMAudioRecorder.h; sourceTree = "<group>"; };
+		AEDDB5B91F665AA80044159E /* PCMAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMAudioRecorder.m; sourceTree = "<group>"; };
+		AEDDB5BB1F665EDB0044159E /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		AEDDB5BC1F665EE50044159E /* TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
+		AEDDB5BE1F665F500044159E /* ql_baseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ql_baseButton.h; sourceTree = "<group>"; };
+		AEDDB5BF1F665F590044159E /* ql_baseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ql_baseButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEDDB57C1F665A720044159E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB5951F665A720044159E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB5A01F665A720044159E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEDDB5761F665A710044159E = {
+			isa = PBXGroup;
+			children = (
+				AEDDB5811F665A720044159E /* 音频采集播放(g711编解码) */,
+				AEDDB59B1F665A720044159E /* 音频采集播放(c711编解码)Tests */,
+				AEDDB5A61F665A720044159E /* 音频采集播放(c711编解码)UITests */,
+				AEDDB5801F665A720044159E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDDB5801F665A720044159E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDDB57F1F665A720044159E /* 音频采集播放(g711编解码).app */,
+				AEDDB5981F665A720044159E /* 音频采集播放(g711编解码)Tests.xctest */,
+				AEDDB5A31F665A720044159E /* 音频采集播放(g711编解码)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDDB5811F665A720044159E /* 音频采集播放(g711编解码) */ = {
+			isa = PBXGroup;
+			children = (
+				AEDDB5851F665A720044159E /* AppDelegate.h */,
+				AEDDB5861F665A720044159E /* AppDelegate.m */,
+				AEDDB5BE1F665F500044159E /* ql_baseButton.h */,
+				AEDDB5BF1F665F590044159E /* ql_baseButton.m */,
+				AEDDB5B51F665A8D0044159E /* PCMDataPlayer.h */,
+				AEDDB5B61F665A960044159E /* PCMDataPlayer.mm */,
+				AEDDB5B81F665AA10044159E /* PCMAudioRecorder.h */,
+				AEDDB5B91F665AA80044159E /* PCMAudioRecorder.m */,
+				AEDDB5881F665A720044159E /* ViewController.h */,
+				AEDDB5891F665A720044159E /* ViewController.m */,
+				AEDDB5BB1F665EDB0044159E /* TEST.h */,
+				AEDDB5BC1F665EE50044159E /* TEST.m */,
+				AEDDB58B1F665A720044159E /* Main.storyboard */,
+				AEDDB58E1F665A720044159E /* Assets.xcassets */,
+				AEDDB5901F665A720044159E /* LaunchScreen.storyboard */,
+				AEDDB5931F665A720044159E /* Info.plist */,
+				AEDDB5821F665A720044159E /* Supporting Files */,
+			);
+			name = "音频采集播放(g711编解码)";
+			path = "音频采集播放(c711编解码)";
+			sourceTree = "<group>";
+		};
+		AEDDB5821F665A720044159E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEDDB5831F665A720044159E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEDDB59B1F665A720044159E /* 音频采集播放(c711编解码)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEDDB59C1F665A720044159E /* _______c711____Tests.m */,
+				AEDDB59E1F665A720044159E /* Info.plist */,
+			);
+			path = "音频采集播放(c711编解码)Tests";
+			sourceTree = "<group>";
+		};
+		AEDDB5A61F665A720044159E /* 音频采集播放(c711编解码)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEDDB5A71F665A720044159E /* _______c711____UITests.m */,
+				AEDDB5A91F665A720044159E /* Info.plist */,
+			);
+			path = "音频采集播放(c711编解码)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEDDB57E1F665A720044159E /* 音频采集播放(g711编解码) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDDB5AC1F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)" */;
+			buildPhases = (
+				AEDDB57B1F665A720044159E /* Sources */,
+				AEDDB57C1F665A720044159E /* Frameworks */,
+				AEDDB57D1F665A720044159E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音频采集播放(g711编解码)";
+			productName = "音频采集播放(c711编解码)";
+			productReference = AEDDB57F1F665A720044159E /* 音频采集播放(g711编解码).app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEDDB5971F665A720044159E /* 音频采集播放(g711编解码)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDDB5AF1F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)Tests" */;
+			buildPhases = (
+				AEDDB5941F665A720044159E /* Sources */,
+				AEDDB5951F665A720044159E /* Frameworks */,
+				AEDDB5961F665A720044159E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEDDB59A1F665A720044159E /* PBXTargetDependency */,
+			);
+			name = "音频采集播放(g711编解码)Tests";
+			productName = "音频采集播放(c711编解码)Tests";
+			productReference = AEDDB5981F665A720044159E /* 音频采集播放(g711编解码)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEDDB5A21F665A720044159E /* 音频采集播放(g711编解码)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDDB5B21F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)UITests" */;
+			buildPhases = (
+				AEDDB59F1F665A720044159E /* Sources */,
+				AEDDB5A01F665A720044159E /* Frameworks */,
+				AEDDB5A11F665A720044159E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEDDB5A51F665A720044159E /* PBXTargetDependency */,
+			);
+			name = "音频采集播放(g711编解码)UITests";
+			productName = "音频采集播放(c711编解码)UITests";
+			productReference = AEDDB5A31F665A720044159E /* 音频采集播放(g711编解码)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDDB5771F665A710044159E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "乔乐";
+				TargetAttributes = {
+					AEDDB57E1F665A720044159E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CG44WHP7D5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					AEDDB5971F665A720044159E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEDDB57E1F665A720044159E;
+					};
+					AEDDB5A21F665A720044159E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEDDB57E1F665A720044159E;
+					};
+				};
+			};
+			buildConfigurationList = AEDDB57A1F665A720044159E /* Build configuration list for PBXProject "音频采集播放(g711编解码)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEDDB5761F665A710044159E;
+			productRefGroup = AEDDB5801F665A720044159E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEDDB57E1F665A720044159E /* 音频采集播放(g711编解码) */,
+				AEDDB5971F665A720044159E /* 音频采集播放(g711编解码)Tests */,
+				AEDDB5A21F665A720044159E /* 音频采集播放(g711编解码)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEDDB57D1F665A720044159E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDDB5921F665A720044159E /* LaunchScreen.storyboard in Resources */,
+				AEDDB58F1F665A720044159E /* Assets.xcassets in Resources */,
+				AEDDB58D1F665A720044159E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB5961F665A720044159E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB5A11F665A720044159E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDDB57B1F665A720044159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDDB58A1F665A720044159E /* ViewController.m in Sources */,
+				AEDDB5871F665A720044159E /* AppDelegate.m in Sources */,
+				AEDDB5BA1F665AA80044159E /* PCMAudioRecorder.m in Sources */,
+				AEDDB5841F665A720044159E /* main.m in Sources */,
+				AEDDB5C01F665F590044159E /* ql_baseButton.m in Sources */,
+				AEDDB5B71F665A960044159E /* PCMDataPlayer.mm in Sources */,
+				AEDDB5BD1F665EE50044159E /* TEST.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB5941F665A720044159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDDB59D1F665A720044159E /* _______c711____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDDB59F1F665A720044159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDDB5A81F665A720044159E /* _______c711____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEDDB59A1F665A720044159E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEDDB57E1F665A720044159E /* 音频采集播放(g711编解码) */;
+			targetProxy = AEDDB5991F665A720044159E /* PBXContainerItemProxy */;
+		};
+		AEDDB5A51F665A720044159E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEDDB57E1F665A720044159E /* 音频采集播放(g711编解码) */;
+			targetProxy = AEDDB5A41F665A720044159E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEDDB58B1F665A720044159E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDDB58C1F665A720044159E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEDDB5901F665A720044159E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDDB5911F665A720044159E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEDDB5AA1F665A720044159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEDDB5AB1F665A720044159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEDDB5AD1F665A720044159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG44WHP7D5;
+				INFOPLIST_FILE = "音频采集播放(c711编解码)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEDDB5AE1F665A720044159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG44WHP7D5;
+				INFOPLIST_FILE = "音频采集播放(c711编解码)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEDDB5B01F665A720044159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "音频采集播放(c711编解码)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频采集播放(g711编解码).app/音频采集播放(g711编解码)";
+			};
+			name = Debug;
+		};
+		AEDDB5B11F665A720044159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "音频采集播放(c711编解码)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频采集播放(g711编解码).app/音频采集播放(g711编解码)";
+			};
+			name = Release;
+		};
+		AEDDB5B31F665A720044159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "音频采集播放(c711编解码)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音频采集播放(c711编解码)";
+			};
+			name = Debug;
+		};
+		AEDDB5B41F665A720044159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "音频采集播放(c711编解码)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serious.-------c711----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音频采集播放(c711编解码)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEDDB57A1F665A720044159E /* Build configuration list for PBXProject "音频采集播放(g711编解码)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDDB5AA1F665A720044159E /* Debug */,
+				AEDDB5AB1F665A720044159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDDB5AC1F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDDB5AD1F665A720044159E /* Debug */,
+				AEDDB5AE1F665A720044159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDDB5AF1F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDDB5B01F665A720044159E /* Debug */,
+				AEDDB5B11F665A720044159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDDB5B21F665A720044159E /* Build configuration list for PBXNativeTarget "音频采集播放(g711编解码)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDDB5B31F665A720044159E /* Debug */,
+				AEDDB5B41F665A720044159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEDDB5771F665A710044159E /* Project object */;
+}
