@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.loudly = 1;
+    
     _pcmRecorder = [[PCMAudioRecorder alloc]init];
     _pcmRecorder.delegate = self;
     
@@ -43,24 +44,14 @@
     ql_baseButton * loud =  [[ql_baseButton alloc]init_with_frame:CGRectMake(150, 200, 40, 20) and_name:@"扩音"];
     loud.block = ^(ql_baseButton *btn)
     {
-//        [self.pcmRecorder stopRecord];
-//        self.pcmRecorder = [[PCMAudioRecorder alloc]init];
-//        self.pcmRecorder.delegate =self;
         self.loudly = !self.loudly;
-//        [self.pcmRecorder startRecordWith:self.loudly];
-        [self.pcmPlayer stop];
-        [[AVAudioSession sharedInstance] setActive:NO error:nil];
         if (self.loudly)
         {
-            [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord withOptions:AVAudioSessionCategoryOptionDefaultToSpeaker error:nil];
-        }
-        else
+            [[AVAudioSession sharedInstance] overrideOutputAudioPort:AVAudioSessionPortOverrideSpeaker error:nil];
+        }else
         {
-            [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+            [[AVAudioSession sharedInstance] overrideOutputAudioPort:AVAudioSessionPortOverrideNone error:nil];
         }
-        [[AVAudioSession sharedInstance] setActive:YES error:nil];
-        [self.pcmPlayer reset];
-        [self.pcmRecorder start];
     };
     [self.view addSubview:recoder];
     [self.view addSubview:silence];
